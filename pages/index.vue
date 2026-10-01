@@ -52,7 +52,7 @@
             <span class="text-cyan-300">{{ currentTime }} UTC</span>
           </div>
           <a
-            href="https://web.nbtf.ca"
+            href="https://www.nbtf.ca"
             target="_blank"
             class="px-3 py-1.5 rounded bg-facility-800 hover:bg-facility-700 text-slate-200 hover:text-white border border-slate-700/60 transition-colors flex items-center gap-1.5"
           >
@@ -335,7 +335,7 @@
             &copy; {{ new Date().getFullYear() }} NBTF.CA Network Directory. All rights reserved.
           </div>
           <div class="flex flex-wrap items-center gap-4">
-            <a href="https://web.nbtf.ca" class="hover:text-cyan-400 transition-colors">Game Portal (web.nbtf.ca)</a>
+            <a href="https://www.nbtf.ca" class="hover:text-cyan-400 transition-colors">Game Portal (www.nbtf.ca)</a>
             <span class="text-slate-700">&bull;</span>
             <a href="https://cbx.kiwi" target="_blank" class="hover:text-cyan-400 transition-colors">Maintainer (cbx.kiwi)</a>
             <span class="text-slate-700">&bull;</span>

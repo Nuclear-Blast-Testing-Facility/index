@@ -9,9 +9,9 @@ const defaultDirectoryData = {
   maintainerNotice: "NBTF.ca is connected via Cloudflare, domain owned by cbx.nz (maintainer of cbx.kiwi).",
   bannerAnnouncement: {
     enabled: true,
-    text: "Operational Network Status: Normal. All official subdomains and routing endpoints are active.",
+    text: "Operational Network Status: Normal. Official subdomains and routing endpoints active.",
     type: "info",
-    link: "//index.nbtf.ca"
+    link: "https://www.nbtf.ca"
   },
   categories: [
     {
@@ -32,9 +32,9 @@ const defaultDirectoryData = {
         {
           id: "dir-2",
           title: "nbtf.ca Homepage",
-          description: "The official web portal and master reference for Nuclear Blast Testing Facility",
-          url: "https://web.nbtf.ca",
-          displayUrl: "web.nbtf.ca",
+          description: "The official master reference and operations dossier for Nuclear Blast Testing Facility",
+          url: "https://www.nbtf.ca",
+          displayUrl: "www.nbtf.ca",
           badge: "Main Web",
           status: "online",
           icon: "Globe"
@@ -42,7 +42,7 @@ const defaultDirectoryData = {
         {
           id: "dir-3",
           title: "NBTF.CA (Vite React Alternative)",
-          description: "Alternative fast client homepage for nbtf.ca website built with Vite React",
+          description: "Alternative fast client homepage for nbtf.ca website using Vite React",
           url: "https://nbtf.ca",
           displayUrl: "nbtf.ca",
           badge: "Vite React",
@@ -51,8 +51,18 @@ const defaultDirectoryData = {
         },
         {
           id: "dir-4",
+          title: "NBTF Official Discord",
+          description: "The official Discord server for NBTF factions, community discussions, and game announcements",
+          url: "https://discord.gg/nbtf",
+          displayUrl: "discord.gg/nbtf",
+          badge: "Official Discord",
+          status: "online",
+          icon: "MessageSquare"
+        },
+        {
+          id: "dir-5",
           title: "Nuclear Blast App",
-          description: "The dedicated web companion app for NBTF telemetry and faction operations (Coming Soon)",
+          description: "The dedicated web companion app for NBTF (Coming Soon)",
           url: "https://app.nbtf.ca",
           displayUrl: "app.nbtf.ca",
           badge: "In Development",
@@ -101,12 +111,12 @@ const defaultDirectoryData = {
     {
       id: "faction-websites",
       name: "Faction Websites",
-      description: "Authorized and recognized faction operational web pages",
+      description: "Community faction websites (Official factions are hosted on the NBTF Discord: discord.gg/nbtf)",
       links: [
         {
           id: "fac-1",
           title: "just another faction",
-          description: "Official website and communication node for just another faction (JAF)",
+          description: "Website for just another faction (JAF)",
           url: "https://jaf.nbtf.ca",
           displayUrl: "jaf.nbtf.ca",
           badge: "Faction Web",
@@ -116,10 +126,10 @@ const defaultDirectoryData = {
         {
           id: "fac-2",
           title: "Military Training Department",
-          description: "The tactical website, doctrines, and syllabus for Military Training Department (MTD)",
+          description: "The website for Military Training Department (MTD) faction",
           url: "https://mtd.nbtf.ca",
           displayUrl: "mtd.nbtf.ca",
-          badge: "Military Dept",
+          badge: "Faction Web",
           status: "online",
           icon: "Crosshair"
         }
@@ -128,12 +138,12 @@ const defaultDirectoryData = {
     {
       id: "public-emails",
       name: "Public Emails",
-      description: "Encrypted mailboxes, department contacts, and legal communication channels",
+      description: "Mailboxes, contact endpoints, and legal communication channels",
       links: [
         {
           id: "mail-1",
           title: "Official: Admin Contact",
-          description: "Direct contact inbox for the NBTF.CA domain administrator and server ops",
+          description: "Contact email for the NBTF.CA domain administrator",
           url: "mailto:admin@nbtf.ca",
           displayUrl: "admin@nbtf.ca",
           badge: "Admin Mail",
@@ -144,7 +154,7 @@ const defaultDirectoryData = {
         {
           id: "mail-2",
           title: "Faction: just another faction",
-          description: "Official faction correspondence for just another faction diplomatic inquiries",
+          description: "Contact email for just another faction",
           url: "mailto:jaf@factions.nbtf.ca",
           displayUrl: "jaf@factions.nbtf.ca",
           badge: "Faction Mail",
@@ -155,10 +165,10 @@ const defaultDirectoryData = {
         {
           id: "mail-3",
           title: "Faction: Channel 6 News",
-          description: "Press releases, news dispatches, and emergency broadcaster contact inbox",
+          description: "Contact email for Channel 6 News faction",
           url: "mailto:c6n@factions.nbtf.ca",
           displayUrl: "c6n@factions.nbtf.ca",
-          badge: "Press Desk",
+          badge: "Faction Mail",
           isEmail: true,
           status: "online",
           icon: "Radio"
@@ -166,7 +176,7 @@ const defaultDirectoryData = {
         {
           id: "mail-4",
           title: "Official: Legal Contact",
-          description: "Formal legal inquiries, DMCA notices, and domain policy matters (cbx.kiwi)",
+          description: "Legal inquiries and domain issues (cbx.kiwi)",
           url: "mailto:legal@cbx.kiwi",
           displayUrl: "legal@cbx.kiwi",
           badge: "Legal Desk",
